@@ -154,6 +154,9 @@ llm-vs-human-agreement-construction/
 │   ├── Figure_13_Model_to_model_semantic_similarity_of_rationales_centroid_cosine_heatmap.png
 │   ├── figure13_calibration.png   # Automatically generated calibration plot
 │   └── figure14_dendrogram.png    # Automatically generated dendrogram plot
+├── notebooks/              # Interactive Jupyter Notebooks for reproduction
+│   ├── 1_Replication_Agreement_Analysis.ipynb
+│   └── 2_Human_Reliability_and_Coverage.ipynb
 └── scripts/                # Verification & statistical execution
     ├── analysis.py         # Primary agreement & bootstrap pipeline
     └── human_reliability_and_coverage.py # Inter-rater reliability & coverage
@@ -216,23 +219,34 @@ Running the scripts generates the following primary metrics, which reproduce the
 
 ### Running the Evaluation
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/morehosseini/llm-vs-human-agreement-construction.git
-   cd llm-vs-human-agreement-construction
-   ```
+You can run the analysis either via the raw Python command-line scripts or interactively using the Jupyter Notebooks.
 
-2. **Run the Agreement Analysis:**
+#### Option A: Command-Line Scripts
+1. **Run the Agreement Analysis:**
    ```bash
    python scripts/analysis.py
    ```
    *This aligns datasets, computes majority-vote baselines, recalculates Cohen's $\kappa$ / Gwet's AC1 with bootstrapped intervals, and outputs the calibration heatmap (`figures/figure13_calibration.png`) and hierarchical clustering dendrogram (`figures/figure14_dendrogram.png`).*
 
-3. **Run Human Reliability & Coverage Analysis:**
+2. **Run Human Reliability & Coverage Analysis:**
    ```bash
    python scripts/human_reliability_and_coverage.py
    ```
    *This outputs Fleiss' $\kappa$ calculations and computes precision at confidence-ranked coverage rates for routing evaluation.*
+
+#### Option B: Interactive Jupyter Notebooks
+1. **Install Jupyter (if not already installed):**
+   ```bash
+   pip install jupyterlab
+   ```
+2. **Launch Jupyter Lab:**
+   ```bash
+   jupyter lab
+   ```
+3. **Open and run the notebooks in order:**
+   - `notebooks/1_Replication_Agreement_Analysis.ipynb`
+   - `notebooks/2_Human_Reliability_and_Coverage.ipynb`
+   *Running the notebooks allows you to visualize the calibration curves and dendrograms inline.*
 
 ---
 
