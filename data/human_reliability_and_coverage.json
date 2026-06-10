@@ -1,0 +1,55 @@
+{
+  "triple_labelled_n": 760,
+  "fleiss_kappa_triple": 0.533,
+  "pairwise_human_cohen_kappa": {
+    "S-R": {
+      "common_records": 786,
+      "agreement": 0.594,
+      "cohen_kappa": 0.373
+    },
+    "S-M": {
+      "common_records": 766,
+      "agreement": 0.59,
+      "cohen_kappa": 0.371
+    },
+    "R-M": {
+      "common_records": 820,
+      "agreement": 0.973,
+      "cohen_kappa": 0.949
+    }
+  },
+  "precision_at_coverage_highconf": {
+    "GPT-5 Full": {
+      "top_10pct": 1.0,
+      "top_25pct": 1.0,
+      "top_50pct": 0.934,
+      "top_75pct": 0.874,
+      "top_100pct": 0.783,
+      "n": 752
+    },
+    "GPT-5 mini": {
+      "top_10pct": 0.947,
+      "top_25pct": 0.904,
+      "top_50pct": 0.862,
+      "top_75pct": 0.84,
+      "top_100pct": 0.749,
+      "n": 752
+    },
+    "Gemini 2.5 Flash": {
+      "top_10pct": 0.987,
+      "top_25pct": 0.984,
+      "top_50pct": 0.888,
+      "top_75pct": 0.798,
+      "top_100pct": 0.725,
+      "n": 752
+    },
+    "Gemini Pro": {
+      "top_10pct": 0.933,
+      "top_25pct": 0.819,
+      "top_50pct": 0.814,
+      "top_75pct": 0.759,
+      "top_100pct": 0.723,
+      "n": 752
+    }
+  }
+}

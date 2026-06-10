@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "date": "2026-05-29",
+    "data_mode": "full",
+    "n_records": 1804,
+    "alignment": {
+      "S": 1.0,
+      "R": 1.0,
+      "M": 1.0
+    }
+  },
+  "tier_counts": {
+    "No label": 823,
+    "Majority 3-0": 445,
+    "Majority 2-1": 307,
+    "Single label": 129,
+    "Majority 2-0": 75,
+    "Conflict (no majority)": 25
+  },
+  "annot_counts": {
+    "S": 902,
+    "R": 863,
+    "M": 828
+  },
+  "subsets": {
+    "n_highconf": 752,
+    "n_medconf": 827,
+    "n_triple": 760,
+    "n_triple_majority": 752,
+    "n_at_least_one_label": 981,
+    "n_reason_excl_R": 2
+  },
+  "item9_10_11_highconf": {
+    "GPT-5 Full": {
+      "n": 752,
+      "accuracy": 0.783,
+      "accuracy_ci": [
+        0.754,
+        0.812
+      ],
+      "cohen_kappa": 0.617,
+      "cohen_kappa_ci": [
+        0.574,
+        0.664
+      ],
+      "gwet_ac1": 0.756,
+      "gwet_ac1_ci": [
+        0.721,
+        0.788
+      ],
+      "macro_f1": 0.409,
+      "macro_f1_ci": [
+        0.365,
+        0.455
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "GPT-5 mini": {
+      "n": 752,
+      "accuracy": 0.749,
+      "accuracy_ci": [
+        0.718,
+        0.781
+      ],
+      "cohen_kappa": 0.574,
+      "cohen_kappa_ci": [
+        0.528,
+        0.618
+      ],
+      "gwet_ac1": 0.715,
+      "gwet_ac1_ci": [
+        0.68,
+        0.75
+      ],
+      "macro_f1": 0.385,
+      "macro_f1_ci": [
+        0.343,
+        0.427
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini Pro": {
+      "n": 752,
+      "accuracy": 0.723,
+      "accuracy_ci": [
+        0.689,
+        0.757
+      ],
+      "cohen_kappa": 0.535,
+      "cohen_kappa_ci": [
+        0.49,
+        0.584
+      ],
+      "gwet_ac1": 0.686,
+      "gwet_ac1_ci": [
+        0.65,
+        0.721
+      ],
+      "macro_f1": 0.395,
+      "macro_f1_ci": [
+        0.351,
+        0.439
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini 2.5 Flash": {
+      "n": 752,
+      "accuracy": 0.725,
+      "accuracy_ci": [
+        0.694,
+        0.754
+      ],
+      "cohen_kappa": 0.537,
+      "cohen_kappa_ci": [
+        0.489,
+        0.583
+      ],
+      "gwet_ac1": 0.688,
+      "gwet_ac1_ci": [
+        0.653,
+        0.724
+      ],
+      "macro_f1": 0.377,
+      "macro_f1_ci": [
+        0.339,
+        0.415
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    }
+  },
+  "item9_10_11_medconf": {
+    "GPT-5 Full": {
+      "n": 827,
+      "accuracy": 0.787,
+      "accuracy_ci": [
+        0.759,
+        0.814
+      ],
+      "cohen_kappa": 0.618,
+      "cohen_kappa_ci": [
+        0.575,
+        0.663
+      ],
+      "gwet_ac1": 0.761,
+      "gwet_ac1_ci": [
+        0.728,
+        0.793
+      ],
+      "macro_f1": 0.42,
+      "macro_f1_ci": [
+        0.377,
+        0.461
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "GPT-5 mini": {
+      "n": 827,
+      "accuracy": 0.75,
+      "accuracy_ci": [
+        0.722,
+        0.779
+      ],
+      "cohen_kappa": 0.574,
+      "cohen_kappa_ci": [
+        0.531,
+        0.619
+      ],
+      "gwet_ac1": 0.717,
+      "gwet_ac1_ci": [
+        0.684,
+        0.752
+      ],
+      "macro_f1": 0.393,
+      "macro_f1_ci": [
+        0.351,
+        0.431
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini Pro": {
+      "n": 827,
+      "accuracy": 0.728,
+      "accuracy_ci": [
+        0.701,
+        0.759
+      ],
+      "cohen_kappa": 0.537,
+      "cohen_kappa_ci": [
+        0.489,
+        0.582
+      ],
+      "gwet_ac1": 0.692,
+      "gwet_ac1_ci": [
+        0.658,
+        0.728
+      ],
+      "macro_f1": 0.396,
+      "macro_f1_ci": [
+        0.354,
+        0.438
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini 2.5 Flash": {
+      "n": 827,
+      "accuracy": 0.73,
+      "accuracy_ci": [
+        0.7,
+        0.758
+      ],
+      "cohen_kappa": 0.542,
+      "cohen_kappa_ci": [
+        0.498,
+        0.582
+      ],
+      "gwet_ac1": 0.695,
+      "gwet_ac1_ci": [
+        0.661,
+        0.729
+      ],
+      "macro_f1": 0.381,
+      "macro_f1_ci": [
+        0.344,
+        0.418
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    }
+  },
+  "item11_perclass_gpt5full_highconf": {
+    "Not Related": {
+      "precision": 0.933,
+      "recall": 0.865,
+      "f1": 0.898,
+      "support": 452
+    },
+    "Uncertain": {
+      "precision": 0.118,
+      "recall": 0.133,
+      "f1": 0.125,
+      "support": 15
+    },
+    "AI Development and Methods": {
+      "precision": 0.792,
+      "recall": 0.709,
+      "f1": 0.748,
+      "support": 247
+    },
+    "AI Adoption Factors": {
+      "precision": 0.516,
+      "recall": 0.552,
+      "f1": 0.533,
+      "support": 29
+    },
+    "AI Performance Evaluation": {
+      "precision": 0.085,
+      "recall": 0.625,
+      "f1": 0.149,
+      "support": 8
+    },
+    "AI Economic and Business Impacts": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    }
+  },
+  "item12_triple": {
+    "GPT-5 Full": {
+      "n": 752,
+      "accuracy": 0.783,
+      "accuracy_ci": [
+        0.753,
+        0.812
+      ],
+      "cohen_kappa": 0.617,
+      "cohen_kappa_ci": [
+        0.573,
+        0.666
+      ],
+      "gwet_ac1": 0.756,
+      "gwet_ac1_ci": [
+        0.72,
+        0.787
+      ],
+      "macro_f1": 0.409,
+      "macro_f1_ci": [
+        0.366,
+        0.454
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "GPT-5 mini": {
+      "n": 752,
+      "accuracy": 0.749,
+      "accuracy_ci": [
+        0.719,
+        0.782
+      ],
+      "cohen_kappa": 0.574,
+      "cohen_kappa_ci": [
+        0.53,
+        0.617
+      ],
+      "gwet_ac1": 0.715,
+      "gwet_ac1_ci": [
+        0.678,
+        0.751
+      ],
+      "macro_f1": 0.385,
+      "macro_f1_ci": [
+        0.342,
+        0.427
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini Pro": {
+      "n": 752,
+      "accuracy": 0.723,
+      "accuracy_ci": [
+        0.694,
+        0.751
+      ],
+      "cohen_kappa": 0.535,
+      "cohen_kappa_ci": [
+        0.486,
+        0.582
+      ],
+      "gwet_ac1": 0.686,
+      "gwet_ac1_ci": [
+        0.648,
+        0.724
+      ],
+      "macro_f1": 0.395,
+      "macro_f1_ci": [
+        0.351,
+        0.439
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    },
+    "Gemini 2.5 Flash": {
+      "n": 752,
+      "accuracy": 0.725,
+      "accuracy_ci": [
+        0.691,
+        0.757
+      ],
+      "cohen_kappa": 0.537,
+      "cohen_kappa_ci": [
+        0.494,
+        0.584
+      ],
+      "gwet_ac1": 0.688,
+      "gwet_ac1_ci": [
+        0.65,
+        0.722
+      ],
+      "macro_f1": 0.377,
+      "macro_f1_ci": [
+        0.334,
+        0.415
+      ],
+      "macro_f1_classes": 6,
+      "present_classes": [
+        "Not Related",
+        "Uncertain",
+        "AI Development and Methods",
+        "AI Adoption Factors",
+        "AI Performance Evaluation",
+        "AI Economic and Business Impacts"
+      ]
+    }
+  },
+  "item13_ece": {
+    "GPT-5 Full": 0.021,
+    "GPT-5 mini": 0.073,
+    "Gemini Pro": 0.291,
+    "Gemini 2.5 Flash": 0.133
+  },
+  "item17_pairwise_kappa": {
+    "GPT-5 Full": {
+      "GPT-5 Full": 1.0,
+      "GPT-5 mini": 0.711,
+      "Gemini Pro": 0.741,
+      "Gemini 2.5 Flash": 0.739,
+      "Human (majority)": 0.564
+    },
+    "GPT-5 mini": {
+      "GPT-5 Full": 0.711,
+      "GPT-5 mini": 1.0,
+      "Gemini Pro": 0.712,
+      "Gemini 2.5 Flash": 0.699,
+      "Human (majority)": 0.534
+    },
+    "Gemini Pro": {
+      "GPT-5 Full": 0.741,
+      "GPT-5 mini": 0.712,
+      "Gemini Pro": 1.0,
+      "Gemini 2.5 Flash": 0.757,
+      "Human (majority)": 0.514
+    },
+    "Gemini 2.5 Flash": {
+      "GPT-5 Full": 0.739,
+      "GPT-5 mini": 0.699,
+      "Gemini Pro": 0.757,
+      "Gemini 2.5 Flash": 1.0,
+      "Human (majority)": 0.504
+    },
+    "Human (majority)": {
+      "GPT-5 Full": 0.564,
+      "GPT-5 mini": 0.534,
+      "Gemini Pro": 0.514,
+      "Gemini 2.5 Flash": 0.504,
+      "Human (majority)": 1.0
+    }
+  }
+}

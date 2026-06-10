@@ -1,0 +1,6 @@
+,GPT-5 Full,GPT-5 mini,Gemini Pro,Gemini 2.5 Flash,Human (majority)
+GPT-5 Full,1.0,0.711,0.741,0.739,0.564
+GPT-5 mini,0.711,1.0,0.712,0.699,0.534
+Gemini Pro,0.741,0.712,1.0,0.757,0.514
+Gemini 2.5 Flash,0.739,0.699,0.757,1.0,0.504
+Human (majority),0.564,0.534,0.514,0.504,1.0
